@@ -60,10 +60,10 @@
 		9A4FEB081FAA9FF900019442 /* Mi_tab_bar */ = {
 			isa = PBXGroup;
 			children = (
+				9A4FEB231FAAA02400019442 /* Main */,
 				9A4FEB091FAA9FF900019442 /* AppDelegate.h */,
 				9A4FEB0A1FAA9FF900019442 /* AppDelegate.m */,
-				9A4FEB0C1FAA9FF900019442 /* ViewController.h */,
-				9A4FEB0D1FAA9FF900019442 /* ViewController.m */,
+				9A4FEB221FAAA00600019442 /* Controllers */,
 				9A4FEB0F1FAA9FF900019442 /* Main.storyboard */,
 				9A4FEB151FAA9FF900019442 /* Assets.xcassets */,
 				9A4FEB171FAA9FF900019442 /* LaunchScreen.storyboard */,
@@ -72,6 +72,22 @@
 				9A4FEB121FAA9FF900019442 /* Mi_tab_bar.xcdatamodeld */,
 			);
 			path = Mi_tab_bar;
+			sourceTree = "<group>";
+		};
+		9A4FEB221FAAA00600019442 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A4FEB0C1FAA9FF900019442 /* ViewController.h */,
+				9A4FEB0D1FAA9FF900019442 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A4FEB231FAAA02400019442 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
