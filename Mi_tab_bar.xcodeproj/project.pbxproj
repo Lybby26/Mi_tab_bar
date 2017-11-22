@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A4FEB0B1FAA9FF900019442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0A1FAA9FF900019442 /* AppDelegate.m */; };
-		9A4FEB0E1FAA9FF900019442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0D1FAA9FF900019442 /* ViewController.m */; };
+		9A4FEB0E1FAA9FF900019442 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0D1FAA9FF900019442 /* Home.m */; };
 		9A4FEB111FAA9FF900019442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0F1FAA9FF900019442 /* Main.storyboard */; };
 		9A4FEB141FAA9FF900019442 /* Mi_tab_bar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB121FAA9FF900019442 /* Mi_tab_bar.xcdatamodeld */; };
 		9A4FEB161FAA9FF900019442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4FEB151FAA9FF900019442 /* Assets.xcassets */; };
@@ -22,8 +22,8 @@
 		9A4FEB061FAA9FF900019442 /* Mi_tab_bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mi_tab_bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4FEB091FAA9FF900019442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A4FEB0A1FAA9FF900019442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A4FEB0C1FAA9FF900019442 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A4FEB0D1FAA9FF900019442 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A4FEB0C1FAA9FF900019442 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		9A4FEB0D1FAA9FF900019442 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		9A4FEB101FAA9FF900019442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A4FEB131FAA9FF900019442 /* Mi_tab_bar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mi_tab_bar.xcdatamodel; sourceTree = "<group>"; };
 		9A4FEB151FAA9FF900019442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		9A4FEB221FAAA00600019442 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9A4FEB0C1FAA9FF900019442 /* ViewController.h */,
-				9A4FEB0D1FAA9FF900019442 /* ViewController.m */,
+				9A4FEB0C1FAA9FF900019442 /* Home.h */,
+				9A4FEB0D1FAA9FF900019442 /* Home.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4FEB0E1FAA9FF900019442 /* ViewController.m in Sources */,
+				9A4FEB0E1FAA9FF900019442 /* Home.m in Sources */,
 				9A4FEB141FAA9FF900019442 /* Mi_tab_bar.xcdatamodeld in Sources */,
 				9A4FEB1C1FAA9FF900019442 /* main.m in Sources */,
 				9ADB4F011FC62EA80053B752 /* cellMainTable.m in Sources */,
