@@ -10,8 +10,8 @@
 
 @interface cellMainTable : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *lblFecha;
-@property (strong, nonatomic) IBOutlet UILabel *lblHora;
 @property (strong, nonatomic) IBOutlet UILabel *lblEquipos;
 @property (strong, nonatomic) IBOutlet UILabel *lblEstadio;
+@property (strong, nonatomic) IBOutlet UILabel *lblHora;
 
 @end
