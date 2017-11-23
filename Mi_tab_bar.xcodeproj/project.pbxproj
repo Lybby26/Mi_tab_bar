@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		31CCF071316D64A49F0EF6B4 /* libPods-Mi_tab_bar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB288358EDD50A493A14128 /* libPods-Mi_tab_bar.a */; };
+		9A408FAE1FC64B6F00A4AA84 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A408FAD1FC64B6F00A4AA84 /* Declarations.m */; };
+		9A408FB11FC64B9200A4AA84 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A408FB01FC64B9200A4AA84 /* WebServices.m */; };
+		9A408FB51FC64C4B00A4AA84 /* PBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A408FB41FC64C4B00A4AA84 /* PBObject.m */; };
 		9A4FEB0B1FAA9FF900019442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0A1FAA9FF900019442 /* AppDelegate.m */; };
 		9A4FEB0E1FAA9FF900019442 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0D1FAA9FF900019442 /* Home.m */; };
 		9A4FEB111FAA9FF900019442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4FEB0F1FAA9FF900019442 /* Main.storyboard */; };
@@ -22,6 +25,13 @@
 
 /* Begin PBXFileReference section */
 		560CBA61A182D163EE8693D2 /* Pods-Mi_tab_bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mi_tab_bar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mi_tab_bar/Pods-Mi_tab_bar.debug.xcconfig"; sourceTree = "<group>"; };
+		9A408FAC1FC64B6F00A4AA84 /* Declarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		9A408FAD1FC64B6F00A4AA84 /* Declarations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		9A408FAF1FC64B9200A4AA84 /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		9A408FB01FC64B9200A4AA84 /* WebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		9A408FB21FC64BB600A4AA84 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9A408FB31FC64C4B00A4AA84 /* PBObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBObject.h; sourceTree = "<group>"; };
+		9A408FB41FC64C4B00A4AA84 /* PBObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBObject.m; sourceTree = "<group>"; };
 		9A4FEB061FAA9FF900019442 /* Mi_tab_bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mi_tab_bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4FEB091FAA9FF900019442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A4FEB0A1FAA9FF900019442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +71,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A408FAB1FC64B4400A4AA84 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A408FAC1FC64B6F00A4AA84 /* Declarations.h */,
+				9A408FAD1FC64B6F00A4AA84 /* Declarations.m */,
+				9A408FAF1FC64B9200A4AA84 /* WebServices.h */,
+				9A408FB01FC64B9200A4AA84 /* WebServices.m */,
+				9A408FB21FC64BB600A4AA84 /* Constants.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		9A4FEAFD1FAA9FF900019442 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,7 @@
 		9A4FEB081FAA9FF900019442 /* Mi_tab_bar */ = {
 			isa = PBXGroup;
 			children = (
+				9A408FAB1FC64B4400A4AA84 /* Helpers */,
 				9ADB4F031FC644EE0053B752 /* Models */,
 				9ADB4EFD1FC62E310053B752 /* Cells */,
 				9A4FEB231FAAA02400019442 /* Main */,
@@ -128,6 +151,8 @@
 		9ADB4F031FC644EE0053B752 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A408FB31FC64C4B00A4AA84 /* PBObject.h */,
+				9A408FB41FC64C4B00A4AA84 /* PBObject.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,8 +295,11 @@
 			files = (
 				9A4FEB0E1FAA9FF900019442 /* Home.m in Sources */,
 				9A4FEB141FAA9FF900019442 /* Mi_tab_bar.xcdatamodeld in Sources */,
+				9A408FB11FC64B9200A4AA84 /* WebServices.m in Sources */,
+				9A408FAE1FC64B6F00A4AA84 /* Declarations.m in Sources */,
 				9A4FEB1C1FAA9FF900019442 /* main.m in Sources */,
 				9ADB4F011FC62EA80053B752 /* cellMainTable.m in Sources */,
+				9A408FB51FC64C4B00A4AA84 /* PBObject.m in Sources */,
 				9A4FEB0B1FAA9FF900019442 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
